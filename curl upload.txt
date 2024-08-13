@@ -1,0 +1,5 @@
+curl -X "PUT" "https://vault.immudb.io/ics/api/v1/ledger/default/collection/default/document" \
+-H "accept: application/json" \
+-H "X-API-Key: default.PWSM_wtV5Ri9X6l7PKt0Lg.yPI3fOEtb_3Kjcz3SOb0AWYUSW6r2vAwZLKkUsNKROvkc8ZI" \
+-H "Content-Type: application/json" \
+-d @C:/Users/ErolCesko/PycharmProjects/Vault/tr1.json

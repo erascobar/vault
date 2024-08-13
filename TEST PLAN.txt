@@ -1,0 +1,46 @@
+*Prerequisites*
+python
+pycharm (or some other tool)
+
+------------------------------------------------------------
+# Test Case 1
+
+1. Created 110 transactions
+
+
+*Steps to reproduce*
+1. create the script to run curl command 110 transactions
+2. run the script 
+3. verify that the file contains 110 transactions
+
+
+**Expected Results**
+Json file with 110 transaction
+
+-------------------------------------------------------------
+# Test Case 2
+
+1. Upload transactions to empty vault 
+
+
+*Steps to reproduce*
+1. use the curl command from curl.txt to upload to vault
+3. verify that the vault contains 110 transactions
+
+
+**Expected Results**
+data should be updated accordingly
+
+-------------------------------------------------------------
+# Test Case 3
+
+1. Overwriting existing data to vault 
+
+
+*Steps to reproduce*
+1. Upload the already existing transaction again
+3. verify that the vault overwrites the existing transaction
+
+
+**Expected Results**
+data should be overwritten 
